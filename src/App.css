@@ -1,10 +1,16 @@
 :root {
-  --primary-color: #003366;
+  --primary-color: #000000;
   --secondary-color: #FFFFFF;
   --accent-color: #FF6600;
-  --accent-blue: #007BFF;
-  --light-gray: #F0F0F0;
-  --dark-overlay: rgba(0, 0, 0, 0.6);
+  --light-gray: #F5F5F5;
+  --dark-gray: #1a1a1a;
+  --text-dark: #000000;
+  --text-light: #666666;
+  --glass-bg: rgba(255, 255, 255, 0.2);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-shadow: rgba(31, 38, 135, 0.37);
+  --dark-glass-bg: rgba(0, 0, 0, 0.2);
+  --dark-glass-border: rgba(255, 255, 255, 0.1);
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
   --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.12);
   --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.15);

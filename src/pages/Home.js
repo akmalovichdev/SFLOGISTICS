@@ -36,10 +36,10 @@ const Home = () => {
   }, []);
 
   const stats = [
-    { number: '500+', label: 'Fleet Vehicles', icon: '🚛' },
-    { number: '1000+', label: 'Satisfied Clients', icon: '😊' },
-    { number: '99.8%', label: 'On-Time Delivery', icon: '⏱️' },
-    { number: '50+', label: 'Service Locations', icon: '📍' },
+    { number: '500+', label: 'Fleet Vehicles', icon: '⚡' },
+    { number: '1000+', label: 'Satisfied Clients', icon: '🔥' },
+    { number: '99.8%', label: 'On-Time Delivery', icon: '⚙️' },
+    { number: '50+', label: 'Service Locations', icon: '🌐' },
   ];
 
   return (
@@ -48,6 +48,7 @@ const Home = () => {
       <Features />
 
       <section className="stats-section">
+        <div className="stats-background"></div>
         <div className="container">
           <h2 className="section-title">Our Numbers Speak</h2>
           <div className="stats-grid">
@@ -63,53 +64,6 @@ const Home = () => {
       </section>
 
       <TrackingWidget />
-
-      <section className="news-section">
-        <div className="container">
-          <h2 className="section-title animate-on-scroll" id="news-title">Latest News & Projects</h2>
-          <div className="news-grid">
-            <div className="news-card animate-on-scroll" id="news-1">
-              <div
-                className="news-image"
-                style={{
-                  backgroundImage: 'url(https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)'
-                }}
-              ></div>
-              <div className="news-content">
-                <h3>Expanding Our Network</h3>
-                <p>We're excited to announce the opening of three new distribution centers across North America, enhancing our delivery capabilities and reducing transit times by 25%.</p>
-                <span className="news-date">March 15, 2024</span>
-              </div>
-            </div>
-            <div className="news-card animate-on-scroll" id="news-2">
-              <div
-                className="news-image"
-                style={{
-                  backgroundImage: 'url(https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)'
-                }}
-              ></div>
-              <div className="news-content">
-                <h3>Sustainable Logistics Initiative</h3>
-                <p>Our commitment to the environment: transitioning to eco-friendly vehicles and reducing carbon footprint by 30%. Join us in building a greener future.</p>
-                <span className="news-date">February 28, 2024</span>
-              </div>
-            </div>
-            <div className="news-card animate-on-scroll" id="news-3">
-              <div
-                className="news-image"
-                style={{
-                  backgroundImage: 'url(https://images.unsplash.com/photo-1601581875101-85b8092a1e87?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)'
-                }}
-              ></div>
-              <div className="news-content">
-                <h3>New International Routes</h3>
-                <p>We've launched new shipping routes connecting Europe and Asia, providing faster transit times for our clients and expanding our global reach.</p>
-                <span className="news-date">January 10, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="process-section">
         <div className="container">

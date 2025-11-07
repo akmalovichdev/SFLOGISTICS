@@ -4,32 +4,28 @@ import './Features.css';
 const Features = () => {
   const features = [
     {
-      icon: '🌍',
+      icon: '⚡',
       title: 'Global Reach',
       description: 'Worldwide shipping network connecting continents with reliable transportation solutions.',
-      color: '#003366',
-      gradient: 'linear-gradient(135deg, #003366 0%, #004080 100%)'
+      color: '#000000'
     },
     {
-      icon: '⏱️',
+      icon: '⚙️',
       title: 'On-Time Delivery',
       description: '99.8% on-time delivery rate ensuring your shipments arrive exactly when promised.',
-      color: '#FF6600',
-      gradient: 'linear-gradient(135deg, #FF6600 0%, #ff8533 100%)'
+      color: '#000000'
     },
     {
-      icon: '🔒',
+      icon: '🛡️',
       title: 'Secure Transport',
       description: 'Advanced security measures and insurance coverage for complete peace of mind.',
-      color: '#007BFF',
-      gradient: 'linear-gradient(135deg, #007BFF 0%, #0056b3 100%)'
+      color: '#000000'
     },
     {
-      icon: '🤝',
+      icon: '🔗',
       title: 'Trusted Partnerships',
       description: 'Building long-term relationships with businesses of all sizes across industries.',
-      color: '#28a745',
-      gradient: 'linear-gradient(135deg, #28a745 0%, #20c997 100%)'
+      color: '#000000'
     }
   ];
 
@@ -52,9 +48,8 @@ const Features = () => {
           {features.map((feature, index) => (
             <div key={index} className="feature-card" style={{ '--card-color': feature.color }}>
               <div className="feature-card-inner">
-                <div className="feature-icon-wrapper" style={{ background: feature.gradient }}>
+                <div className="feature-icon-wrapper" style={{ background: feature.color }}>
                   <div className="feature-icon">{feature.icon}</div>
-                  <div className="icon-glow"></div>
                 </div>
                 <div className="feature-content">
                   <h3 className="feature-title">{feature.title}</h3>

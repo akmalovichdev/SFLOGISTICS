@@ -3,24 +3,45 @@
 }
 
 .quote-hero {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #004080 100%);
+  background: #000000;
   color: var(--secondary-color);
   padding: 5rem 0;
   text-align: center;
+  position: relative;
+}
+
+.quote-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(2px);
+  z-index: 0;
+}
+
+.quote-hero .container {
+  position: relative;
+  z-index: 1;
 }
 
 .quote-content {
   padding: 5rem 0;
-  background-color: var(--light-gray);
+  background: #ffffff;
 }
 
 .quote-form {
   max-width: 900px;
   margin: 0 auto;
-  background-color: var(--secondary-color);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   padding: 3rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .form-section {
@@ -72,18 +93,28 @@
 .form-group select,
 .form-group textarea {
   padding: 0.8rem;
-  border: 2px solid #ddd;
-  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
-  transition: border-color 0.3s ease;
+  transition: all 0.3s ease;
+  color: var(--primary-color);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
+  background: rgba(255, 255, 255, 0.4);
   border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.1);
 }
 
 .form-group input.error,
