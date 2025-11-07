@@ -1,7 +1,7 @@
 {
   "name": "sf-logistics",
   "version": "1.0.0",
-  "description": "S&F Logistics - Professional logistics company website",
+  "description": "S&F Logistics INC - Professional logistics company website",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",

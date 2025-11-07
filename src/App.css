@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'DM Serif Display', 'Roboto', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -56,7 +56,7 @@ body {
 
 /* Utility classes */
 .section-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;

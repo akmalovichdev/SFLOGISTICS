@@ -280,7 +280,7 @@ const Quote = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="(555) 123-4567"
+                    placeholder="(215) 970 77-70"
                     className={errors.phone ? 'error' : ''}
                   />
                   {errors.phone && <span className="error-message">{errors.phone}</span>}

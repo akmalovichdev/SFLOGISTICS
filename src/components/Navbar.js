@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <span className="logo-text">S&F LOGISTICS</span>
+          <span className="logo-text">S&F LOGISTICS INC</span>
         </Link>
 
         <div className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>

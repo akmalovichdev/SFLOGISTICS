@@ -36,7 +36,8 @@ const Features = () => {
         <div className="features-header">
           <span className="features-badge">Our Advantages</span>
           <h2 className="features-title">
-            Why Choose <span className="title-accent">S&F Logistics</span>?
+            Why Choose <br />
+            <span className="title-accent">S&F Logistics</span>?
           </h2>
           <p className="features-subtitle">
             We combine cutting-edge technology with decades of experience to deliver

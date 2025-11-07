@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3 className="footer-title">S&F LOGISTICS</h3>
+          <h3 className="footer-title">S&F LOGISTICS INC</h3>
           <p className="footer-description">
             We redefine logistics with reliable, fast, and secure transportation services worldwide.
           </p>
@@ -25,27 +25,25 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h4 className="footer-heading">Services</h4>
-          <ul className="footer-links">
-            <li>FTL Transportation</li>
-            <li>LTL Transportation</li>
-            <li>International Shipping</li>
-            <li>Warehouse Logistics</li>
+          <h4 className="footer-heading">Additional Contact</h4>
+          <ul className="footer-contact">
+            <li>Phone: +1 (718) 701 33-35</li>
+            <li>Address: 9743 Cowden St Philadelphia, PA 19115</li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4 className="footer-heading">Contact Info</h4>
           <ul className="footer-contact">
-            <li>Email: info@sf-logistics.com</li>
-            <li>Phone: +1 (555) 123-4567</li>
-            <li>Address: 123 Logistics Way, Business District</li>
+            <li>Email: info@sflogistic.com</li>
+            <li>Phone: +1 (215) 970 77-70</li>
+            <li>Address: 2609 E 14th St #380 Brooklyn, NY 11235</li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} S&F Logistics. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} S&F Logistics INC. All rights reserved.</p>
       </div>
     </footer>
   );

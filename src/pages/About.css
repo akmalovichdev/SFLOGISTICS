@@ -115,7 +115,7 @@
 }
 
 .section-heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -190,7 +190,7 @@
 }
 
 .value-card h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -249,7 +249,7 @@
 }
 
 .stat-number {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-size: 3rem;
   font-weight: 700;
   color: var(--accent-color);
@@ -300,7 +300,7 @@
 
 .cert-item strong {
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-size: 1.3rem;
   color: var(--primary-color);
   margin-bottom: 0.5rem;

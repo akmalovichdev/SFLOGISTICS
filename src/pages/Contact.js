@@ -139,7 +139,7 @@ const Contact = () => {
                   <div className="info-icon">📞</div>
                   <div className="info-content">
                     <h3>Phone</h3>
-                    <p>+1 (555) 123-4567<br />+1 (555) 123-4568</p>
+                    <p>+1 (215) 970 77-70<br />+1 (215) 970 77-70</p>
                   </div>
                 </div>
 
@@ -147,7 +147,7 @@ const Contact = () => {
                   <div className="info-icon">✉️</div>
                   <div className="info-content">
                     <h3>Email</h3>
-                    <p>info@sf-logistics.com<br />support@sf-logistics.com</p>
+                    <p>info@sflogistic.com<br />support@sf-logistics.com</p>
                   </div>
                 </div>
 

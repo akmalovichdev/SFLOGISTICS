@@ -50,7 +50,7 @@
 }
 
 .section-heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -117,7 +117,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s ease;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
 }
 
 .submit-button:hover {
@@ -159,7 +159,7 @@
 }
 
 .info-content h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.5rem;

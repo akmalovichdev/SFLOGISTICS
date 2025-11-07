@@ -52,7 +52,7 @@ const About = () => {
               <div className="about-text">
                 <h2 className="section-heading">Our Mission</h2>
                 <p className="section-text">
-                  At S&F Logistics, we are committed to redefining the logistics industry through
+                  At S&F Logistics INC, we are committed to redefining the logistics industry through
                   innovation, reliability, and exceptional customer service. Our mission is to provide
                   seamless transportation solutions that empower businesses to grow and succeed in an
                   increasingly connected world.
@@ -110,7 +110,7 @@ const About = () => {
               <div className="about-text">
                 <h2 className="section-heading">Our Story</h2>
                 <p className="section-text">
-                  Founded in 2010, S&F Logistics began as a small regional transportation company with
+                  Founded in 2010, S&F Logistics INC began as a small regional transportation company with
                   a vision to transform the logistics landscape. Over the years, we've expanded our
                   network to cover major routes across North America and established international
                   partnerships that enable global shipping capabilities.
@@ -135,7 +135,7 @@ const About = () => {
             <p className="section-text">
               Our success is built on the expertise and dedication of our team. From logistics
               coordinators to drivers, from customer service representatives to warehouse staff,
-              every member of the S&F Logistics family is committed to delivering excellence.
+              every member of the S&F Logistics INC family is committed to delivering excellence.
             </p>
             <div className="team-stats">
               <div className="stat-item animate-on-scroll" id="stat-1">

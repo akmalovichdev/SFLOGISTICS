@@ -19,7 +19,7 @@ const Hero = () => {
 
       <div className="hero-content">
         <h1 className="hero-title">
-          <span className="title-main">S&F LOGISTICS</span>
+          <span className="title-main">S&F LOGISTICS INC</span>
           <span className="title-sub">We Move Your World</span>
         </h1>
 

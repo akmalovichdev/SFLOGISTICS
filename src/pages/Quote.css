@@ -53,7 +53,7 @@
 }
 
 .form-section-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 2rem;
@@ -70,7 +70,7 @@
 }
 
 .dimensions-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--primary-color);
@@ -151,7 +151,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s ease;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
 }
 
 .submit-button:hover {
